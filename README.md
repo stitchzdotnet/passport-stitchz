@@ -1,5 +1,6 @@
 # passport-stitchz
 
+[![Build Status](https://travis-ci.org/stitchzdotnet/passport-stitchz.svg?branch=master](https://travis-ci.org/stitchzdotnet/passport-stitchz)
 
 The official Stitchz authentication strategy for Passport.js.
 
