@@ -1,0 +1,36 @@
+{
+  "name": "passport-stitchz",
+  "version": "0.0.1",
+  "description": "Stitchz.net authentication strategy for Passport.",
+  "main": "./lib",
+  "keywords": [
+    "stitchz",
+    "passport",
+    "auth",
+    "authentication",
+    "authorization",
+    "oauth",
+    "oauth2"
+  ],
+  "author": {
+    "name": "stitchzdotnet",
+    "email": "stitchzdotnet@gmail.com",
+    "url": "http://www.stitchz.net/"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stitchzdotnet/passport-stitchz.git"
+  },
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "passport-strategy": "1.x.x",
+    "util": "^0.10.3"
+  }
+}
