@@ -32,7 +32,8 @@ passport.use(new StitchzStrategy({
    appHost:      'your Stitchz.net App URL',  // i.e. appurl.stitchz.net
    redirectUri:  'http://localhost:3000/callback', // your website's callback URL
    version:      '2', // optional - default is '1'
-   format:       'json' // optional - default is 'xml'
+   format:       'json', // optional - default is 'xml'
+   debug:        false // optional - default is false
   },
   function(err, resp, done) {
      User.findOneOrCreate({ identifier: resp.profile.identifier }, 
@@ -115,4 +116,4 @@ available profile properties, visit our [documentation page](https://www.stitchz
 
 This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
-Copyright (c) 2017 Stitchz <[https://www.stitchz.net/](https://www.stitchz.net/)>
+Copyright (c) 2017-2018 Stitchz <[https://www.stitchz.net/](https://www.stitchz.net/)>
